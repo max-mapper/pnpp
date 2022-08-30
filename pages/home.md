@@ -8,6 +8,6 @@ eleventyNavigation:
   order: 0
 ---
 
-![](static/img/pnpp-logo.png)
+<img src="static/img/pnpp-logo-large.jpg" alt="Pasadena Native Plant Project" width="300"/>
 
 [Contact Us](mailto:parker@hardycalifornians.com)
