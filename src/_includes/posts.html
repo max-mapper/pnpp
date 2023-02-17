@@ -1,0 +1,19 @@
+---
+layout: default
+prism: true
+---
+<div class="bg-gray-200">
+    <div class="container max-w-5xl px-6 pt-8 blog">
+        <div class="pb-2 mb-5 border-b border-green-900">
+            <h1 class="text-5xl font-bold">{{title}}</h1>
+        </div>
+        
+        <article class="prose lg:prose-xl">
+            {{ content | safe }}
+        </article>
+
+        <div class="pt-5 border-t border-green-900">
+            <p class="text-base font-normal leading-6 text-gray-500">Last updated: <time>{{ date | readableDate }}</time> by {{author}}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+items:
+  - text: Home
+    url: /
+  - text: Events
+    url: /events
+  - text: Newsletter
+    url: /newsletter
+  - text: About
+    url: /posts/about-us/
