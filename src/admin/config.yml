@@ -36,7 +36,7 @@ collections:
           - { label: URL, name: url, widget: string }
   - label: "Blog"
     name: "blog"
-    folder: "src"
+    folder: "src/posts"
     create: true
     editor:
       preview: false
