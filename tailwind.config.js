@@ -27,7 +27,7 @@ module.exports = {
         900: '#02502F'
       },
       yellow: {
-        50: '#E4FFAD', // nav highlight
+        50: '#92B99D', // nav highlight
         200: '#FFE67B', // button
         500: '#E27B38' // ticker, button
       },

@@ -1,9 +1,9 @@
 items:
   - text: Home
     url: /
-  - text: Events
-    url: /events
-  - text: Newsletter
-    url: /newsletter
   - text: About
-    url: /posts/about-us/
+    url: /about
+  - text: Projects
+    url: /projects
+  - text: Contact Us
+    url: /posts/contact-us/

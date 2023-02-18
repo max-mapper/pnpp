@@ -6,7 +6,7 @@
         </div>
 
         <!--Toggle button (hidden on large screens)-->
-        <button @click="isOpen = !isOpen" type="button" class="block px-2 ml-auto text-white lg:hidden text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
+        <button @click="isOpen = !isOpen" type="button" class="block px-2 ml-auto text-black lg:hidden text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
             <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
                 <path x-show="isOpen" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
                 <path x-show="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
@@ -22,7 +22,7 @@
                         <li class="py-3 lg:py-0 lg:ml-3 nav__item">
                             <a
                                 @click="isOpen = false"
-                                class="inline-block mx-2 font-black text-lg uppercase border-b-4 tracking-wide hover:text-yellow-50 hover:border-yellow-50 focus:text-yellow-50 focus:border-yellow-50 {{ 'border-yellow-50 text-yellow-50' if path == item.text else 'text-white border-transparent' }}"
+                                class="inline-block mx-2 font-black text-lg uppercase border-b-4 tracking-wide hover:text-yellow-50 hover:border-yellow-50 focus:text-yellow-50 focus:border-yellow-50 {{ 'border-black-50 text-black' if path == item.text else 'border-transparent' }}"
                                 href="{{ item.url }}">
                                     {{ item.text }}
                             </a>

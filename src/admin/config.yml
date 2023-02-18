@@ -1,8 +1,8 @@
 backend:
   name: github
   branch: main
-  open_authoring: true
-  repo: maxogden/plantcommunityla
+  # open_authoring: true
+  repo: maxogden/pnpp
   auth_scope: repo
 media_folder: "src/static/img"
 public_folder: "/static/img"
@@ -15,30 +15,6 @@ collections:
     editor:
       preview: false
     files:
-      - label: "Navigation"
-        name: "items"
-        file: "src/_data/navigation.yaml"
-        fields:
-          - label: Nav Items
-            name: items
-            widget: list
-            allow_add: false
-            collapsed: false
-            fields:
-              - { label: Title, name: text, widget: string }
-              - { label: URL, name: url, widget: string }
-      - label: "Quick Links"
-        name: "links"
-        file: "src/_data/quicklinks.yaml"
-        fields:
-          - label: Nav Items
-            name: links
-            widget: list
-            collapsed: false
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-              - { label: Description, name: desc, widget: string }
       - label: "Meta Settings"
         name: "settings"
         file: "src/_data/settings.yaml"
