@@ -4,6 +4,44 @@
 
 /*Your Custom CSS Goes here*/
 
+.nunito {
+  font-family: 'Nunito';
+  font-size: 22px;
+}
+
+.sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-mustard-100 {
+  background: #E0C457;
+}
+
+.image-banner {
+  width:  100%; /*or 70%, or what you want*/
+  height: 700px; /*or 70%, or what you want*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.pclalogo-big {
+  margin-top: 10%;
+  background-image: url(/static/img/logo-white.svg);
+  background-repeat: no-repeat;
+  height: 300px;
+  fill: white;
+  width: 400px;
+}
+
+.font-white {
+  color: white;
+}
+
 h1 {
   @apply text-4xl font-black lg:text-7xl;
 }

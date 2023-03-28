@@ -4,18 +4,17 @@ title: Plant Community LA
 path: Home
 ---
 
-<div class="container flex flex-col justify-center pt-8 pb-4 mx-auto lg:pb-11">
-  <h2 class="font-sans text-3xl font-black text-green-800 uppercase border-b border-green-800 lg:text-4xl">lorem ipsum</h2>
-</div>
-
-<div class="flex flex-col justify-center pb-8 mx-auto bg-gray-100 pt-14">
-  <div class="container">
-    <h2 class="font-sans text-3xl font-black text-green-800 uppercase border-b border-green-800 lg:text-4xl">lorem ipsum</h2>
+<div style="background-image:url(/static/img/img-01.jpg)" class="image-banner">
+  <div class="flex flex-col justify-center w-3/4 center-container">
+    <div class="pclalogo-big center"></div>
+    <h2 class="font-sans text-3xl font-white uppercase nunito lg:text-5xl">Regenerating Urbanized Ecosystems</h2>
   </div>
 </div>
 
-<div class="container flex flex-col justify-center pt-8 pb-4 mx-auto lg:pb-11">
-  <h2 class="font-sans text-3xl font-black text-green-800 uppercase border-b border-green-800 lg:text-4xl">lorem ipsum</h2>
+<div class="flex flex-col justify-center pb-8 mx-auto bg-mustard-100 pt-14">
+  <p class="center w-3/4 pt-4 pb-12 font-serif text-2xl sans leading-tight text-center text-black">
+    Stay up to date with our monthly newsletter.  Find out about upcoming events, announcements, job opportunities, and other exciting ways to get involved!
+  </p>
+  {% include "./_includes/partials/email-subscriber.html" %}
+  <p class="pt-8 center font-sans text-large text-black">By submitting you are agreeing to receive from us occasional communications on news and related topics and agreeing to our Privacy Policy.</p>
 </div>
-
-{% include "./_includes/partials/mailer.html" %}
